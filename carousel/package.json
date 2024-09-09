@@ -7,10 +7,15 @@
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
     "bootstrap-icons": "^1.8.3",
+    "carousel": "file:",
     "react": "*",
     "react-dom": "*",
     "react-scripts": "*",
     "web-vitals": "*"
+  },
+  "overrides": {
+    "css-select": "^5.1.0",
+    "postcss": "^8.4.45"
   },
   "scripts": {
     "start": "react-scripts start",
